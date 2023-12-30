@@ -1,0 +1,191 @@
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  :root {
+    --first-color: #0d6efd;
+    --second-color: #dc3545;
+    --third-color: #ffffff;
+    --fourth-color: #fd7e14;
+  }
+  
+  /* Custom Utilities Section */
+  body {
+    background: linear-gradient(to left, var(--first-color), var(--second-color));
+    overflow-x: hidden;
+  }
+  .main-heading {
+    font-size: 3rem;
+    color: var(--third-color);
+    text-align: center;
+  }
+  .sub-heading {
+    font-size: 1rem;
+    color: var(--fourth-color);
+    text-align: center;
+  }
+  .heading-line {
+    width: 400px;
+    height: 2px;
+    background-color: var(--fourth-color);
+    margin: 30px auto;
+  }
+  
+  /* Navi Section */
+  nav {
+    background: linear-gradient(to left, var(--first-color), var(--second-color));
+  }
+  
+  /* Head Section */
+  #header {
+    width: 100%;
+    min-height: 635px;
+    position: relative;
+  }
+  #header video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -2;
+  }
+  #header .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    background: linear-gradient(to left, var(--first-color), var(--second-color));
+    mix-blend-mode: overlay;
+    z-index: -1;
+  }
+  
+  /* Service Section */
+  .service-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    transition: 0.5s;
+  }
+  .service-card img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Plan Section */
+  .plan-2-card {
+    position: relative;
+    overflow: hidden;
+  }
+  .recommended {
+    width: 200px;
+    background-color: var(--third-color);
+    color: black;
+    font-size: 0.8rem;
+    position: absolute;
+    right: -45px;
+    top: 20px;
+    transform: rotate(30deg);
+  }
+  /* Testimonial Section */
+  
+  #testimonial img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 5%;
+  }
+  /* button.carousel-control-prev {
+    position: absolute;
+    left: -6%;
+  } */
+  .carousel-control-prev-icon {
+    position: absolute;
+    left: -8%;
+    width: 30px;
+    height: 30px;
+    background-color: var(--fourth-color);
+  }
+  /* button.carousel-control-next {
+    position: absolute;
+    right: -6%;
+  } */
+  .carousel-control-next-icon {
+    position: absolute;
+    right: -8%;
+    width: 30px;
+    height: 30px;
+    background-color: var(--fourth-color);
+  }
+  .carousel-indicators button[type="button"] {
+    height: 10px;
+  }
+  
+  /* News Section  */
+  
+  #news img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 7%;
+    border: 2px solid var(--second-color);
+    border-radius: 2px;
+    transition: 0.5s;
+  }
+  #news img:hover {
+    transform: scale(1.03);
+  }
+  #news span i {
+    padding: 0 5px;
+  }
+  #news span:last-child {
+    margin-right: 5px;
+  }
+  
+  /* FAQ Section */
+  #faq button:not(.collapsed) {
+    background-color: var(--fourth-color);
+    color: var(--third-color);
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-image: url(image/footerpushup.jpg);
+    opacity: 0.7;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Footer Section */
+  #footer ul {
+    list-style: none;
+  }
+  #footer ul li {
+    padding: 7px 0;
+  }
+  
+  /* Up Arrow Section */
+  .up-arrow {
+    display: block;
+    width: 40px;
+    height: 50px;
+    background-color: var(--second-color);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 3px;
+    font-size: 2rem;
+    color: var(--third-color);
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+  }
+  

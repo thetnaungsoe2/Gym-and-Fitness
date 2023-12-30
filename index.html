@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Gym & Fitness</title>
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="app.css" />
+
+    <!-- Bootstrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Nav Section -->
+    <nav
+      class="navbar navbar-dark navbar-expand-lg py-2 bg-primary text-uppercase sticky-top shadow-lg"
+    >
+      <div class="container">
+        <a href="" class="navbar-brand">Fitness & Gym</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#myNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-1">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="#service" class="nav-link">Service</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="#plan" class="nav-link">Plan</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="#testimonial" class="nav-link">Testimonial</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="#news" class="nav-link">News</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="#faq" class="nav-link">Faq</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                href="#loginOffcanvas"
+                data-bs-toggle="offcanvas"
+                class="nav-link"
+                >Sign In</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#registerOffcanvas"
+                class="nav-link"
+                data-bs-toggle="offcanvas"
+                >Sign Up</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="header">
+      <video src="image/vid1.mp4" autoplay loop muted></video>
+      <div class="overlay"></div>
+      <div class="container py-5">
+        <h1
+          class="text-pink"
+          style="font-size: 4.5rem"
+          data-aos-duration="2000"
+          data-aos="fade-right"
+        >
+          BE FITNESS
+        </h1>
+        <h3
+          class="text-white"
+          style="font-size: 3rem"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
+          & BE STRONG
+        </h3>
+        <p
+          class="text-white"
+          style="max-width: 500px"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
+        Unleash Your Strength at Be Fit & Strong Gym! Elevate your fitness journey with state-of-the-art equipment, expert trainers, and a motivating community. Join now and transform into the strongest version of yourself. Be Fit. Be Strong.
+        </p>
+        <!-- <button class="btn btn-danger">JOIN US</button> -->
+        <a
+          href="#registerOffcanvas"
+          data-bs-toggle="offcanvas"
+          class="btn btn-danger"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          >JOIN UP</a
+        >
+      </div>
+    </header>
+
+    <!-- About section -->
+    <section id="about" class="container p-5">
+      <div class="sub-heading" data-aos="fade-left">ABOUT US</div>
+      <div class="main-heading" data-aos="fade-right">Who We Are</div>
+      <div class="heading-line" data-aos="fade-left"></div>
+      <div class="row align-items-center">
+        <div class="col-md-6" data-aos="fade-right">
+          <p class="text-white">
+            Welcome to Be Fit & Strong Gym, where fitness meets strength, and goals become achievements. At our cutting-edge facility, we are dedicated to empowering individuals on their fitness journey. Our passionate team of certified trainers is committed to guiding you through personalized workouts, ensuring that every session counts.
+          </p>
+          <p class="text-white">
+            Equipped with top-of-the-line fitness equipment, Be Fit & Strong Gym provides the tools you need to sculpt your body, boost your endurance, and achieve your fitness aspirations. Join us in redefining what it means to be fit and strong. Your journey to a healthier, stronger you starts here. Be Fit. Be Strong. Be You.
+          </p>
+        </div>
+
+        <div class="col-md-6" data-aos="fade-left">
+          <img
+            src="image/Muscularman.jpg"
+            alt="404"
+            class="rounded-1 img-fluid"
+            style="max-height: 400px; width: 100%; object-fit: cover"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Section -->
+    <section id="service" class="container p-5">
+      <div class="sub-heading" data-aos="fade-left">OUR SERVICES</div>
+      <div class="main-heading" data-aos="fade-right ">What We Offer</div>
+      <div class="heading-line" data-aos="fade-left"></div>
+
+      <div class="row">
+        <div class="col-md-5" data-aos="fade-right">
+          <img
+            src="image/whatweoffer.jpg"
+            alt="404"
+            style="max-height: 565px"
+            class="main-img img-fluid my-2"
+          />
+        </div>
+        <div class="col-md-7">
+          <div
+            class="card service-card overflow-hidden bg-dark p-3 my-2"
+            data-aos="fade-left"
+          >
+            <div class="row align-items-center">
+              <div class="col-md-7 text-center text-white">
+                <h5>Retail Merchandiset</h5>
+                <p style="font-size: 0.9rem">
+                  Embrace the strength within and shop our curated selection of high-quality gym gear. Elevate your style, amplify your workouts. Be Fit. Be Strong. Be Fashionable.
+                </p>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="image/retail.jpg"
+                  alt=""
+                  class="border border-2 border-danger rounded-1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="card service-card overflow-hidden bg-dark p-3 my-2"
+            data-aos="fade-left"
+          >
+            <div class="row align-items-center">
+              <div class="col-md-7 text-center text-white">
+                <h5>Online Personal Training</h5>
+                <p style="font-size: 0.9rem">
+            
+"Transform your fitness journey with our Online Personal Training! Our certified trainers deliver personalized workouts, nutrition guidance, and constant motivation—all from the convenience of your home. Achieve your goals with expert support. Embrace the future of fitness. Join us online today!"
+                </p>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="image/onlinepersonal.png"
+                  alt=""
+                  class="border border-2 border-danger rounded-1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="card service-card overflow-hidden bg-dark p-3 my-2"
+            data-aos="fade-left"
+          >
+            <div class="row align-items-center">
+              <div class="col-md-7 text-center text-white">
+                <h5>Personal Training</h5>
+                <p style="font-size: 0.9rem">
+            
+"Unlock Your Full Potential with Personal Training! Our certified trainers are dedicated to tailoring workouts to your unique goals and fitness level. Experience individualized guidance, motivation, and expert insights to maximize your results. Elevate your fitness journey—train personally, achieve profoundly."
+                </p>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="image/personaltraining.jpg"
+                  alt=""
+                  class="border border-2 border-danger rounded-1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plan Section  -->
+    <section id="plan" class="container p-5">
+      <div class="sub-heading" data-aos="fade-left">PRICING TABLE</div>
+      <div class="main-heading" data-aos="fade-right">Membership Plan</div>
+      <div class="heading-line" data-aos="fade-left"></div>
+      <div class="row align-items-center">
+        <div class="col-md-6 col-lg-4" data-aos="fade-right">
+          <div class="card text-center bg-dark text-light border-0">
+            <div class="card-header">
+              <h4>$<span class="fs-1">10</span> / day</h4>
+            </div>
+            <div class="alert bg-warning rounded-0">One day training</div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent text-light my-2">
+                  Lorem ipsum dolor sit amet.
+                </li>
+                <li class="list-group-item bg-transparent text-light my-2">
+                  Lorem ipsum dolor sit amet.
+                </li>
+                <li class="list-group-item bg-transparent text-light my-2">
+                  Lorem ipsum dolor sit amet.
+                </li>
+                <li class="list-group-item bg-transparent text-light my-2">
+                  Lorem ipsum dolor sit amet.
+                </li>
+                <li
+                  class="list-group-item bg-transparent text-light my-2 border-bottom"
+                >
+                  Lorem ipsum dolor sit amet.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+          <div
+            class="card text-center bg-dark text-light border border-2 border-danger plan-2-card"
+          >
+            <div class="card-header">
+              <h4>$<span class="fs-1">79</span> / month</h4>
+            </div>
+            <div class="alert bg-danger rounded-0">12 Months Membership</div>
+            <div class="recommended">Recommended</div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent text-light my-2">
+                  Lorem ipsum dolor sit amet.
+                </li>
+                <li class="list-group-item bg-transparent text-light my-2">
+                  Lorem ipsum dolor sit amet.
+                </li>
+                <li class="list-group-item bg-transparent text-light my-2">
+                  Lorem ipsum dolor sit amet.
+                </li>
+                <li class="list-group-item bg-transparent text-light my-2">
+                  Lorem ipsum dolor sit amet.
+                </li>
+                <li class="list-group-item bg-transparent text-light my-2">
+                  Lorem ipsum dolor sit amet.
+                </li>
+                <li class="list-group-item bg-transparent text-light my-2">
+                  <!-- <button class="btn btn-danger">SIGN UP NOW</button> -->
+                  <a
+                    href="#registerOffcanvas"
+                    class="btn btn-danger"
+                    data-bs-toggle="offcanvas"
+                    >SIGN UP NOW</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-left">
+          <div class="card text-center bg-dark text-light border-0">
+            <div class="card-header">
+              <h4>$<span class="fs-1">99</span> / month</h4>
+            </div>
+            <div class="alert bg-warning rounded-0">Monthly Payment</div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent text-light my-2">
+                  Lorem ipsum dolor sit amet.
+                </li>
+                <li class="list-group-item bg-transparent text-light my-2">
+                  Lorem ipsum dolor sit amet.
+                </li>
+                <li class="list-group-item bg-transparent text-light my-2">
+                  Lorem ipsum dolor sit amet.
+                </li>
+                <li class="list-group-item bg-transparent text-light my-2">
+                  Lorem ipsum dolor sit amet.
+                </li>
+                <li
+                  class="list-group-item bg-transparent text-light my-2 border-bottom"
+                >
+                  Lorem ipsum dolor sit amet.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section id="testimonial" class="container p-5">
+      <div class="sub-heading" data-aos="fade-left">TESTIMONIAL</div>
+      <div class="main-heading" data-aos="fade-right">What Our Clients Say</div>
+      <div class="heading-line" data-aos="fade-left"></div>
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row gy-2">
+              <div class="col-lg-6" data-aos="fade-right">
+                <div class="card bg-dark overflow-hidden border-0">
+                  <div class="row">
+                    <div class="col-sm-7 py-3 px-4">
+                      <h2 class="text-white">Emma</h2>
+                      <h4 class="text-warning">CLIENT</h4>
+                      <p class="text-white">
+                        "5/5: Exceptional service, achieved my goals!"
+                      </p>
+                      <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <img
+                        src="image/Emma2.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-left">
+                <div class="card overflow-hidden bg-dark border-0">
+                  <div class="row">
+                    <div class="col-sm-7 py-3 px-4">
+                      <h2 class="text-white">Joe</h2>
+                      <h4 class="text-warning">CLIENT</h4>
+                      <p class="text-white">
+                        Outstanding trainers, great results!
+                      </p>
+                      <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <img
+                        src="image/joe1.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row gy-2">
+              <div class="col-lg-6" data-aos="fade-right">
+                <div class="card bg-dark overflow-hidden border-0">
+                  <div class="row">
+                    <div class="col-sm-7 py-3 px-4">
+                      <h2 class="text-white">Julia</h2>
+                      <h4 class="text-warning">CLIENT</h4>
+                      <p class="text-white">
+                        Top-notch gym, exceeded expectations!
+                      </p>
+                      <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <img
+                        src="image/julia.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-left">
+                <div class="card overflow-hidden bg-dark border-0">
+                  <div class="row">
+                    <div class="col-sm-7 py-3 px-4">
+                      <h2 class="text-white">Hancock</h2>
+                      <h4 class="text-warning">CLIENT</h4>
+                      <p class="text-white">
+                        Personalized workouts, incredible progress!
+                      </p>
+                      <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <img
+                        src="image/hancock2.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row gy-2">
+              <div class="col-lg-6" data-aos="fade-right">
+                <div class="card bg-dark overflow-hidden border-0">
+                  <div class="row">
+                    <div class="col-sm-7 py-3 px-4">
+                      <h2 class="text-white">Kate</h2>
+                      <h4 class="text-warning">CLIENT</h4>
+                      <p class="text-white">
+                        Achieved fitness milestones, fantastic experience!
+                      </p>
+                      <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <img
+                        src="image/kate2.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-left">
+                <div class="card overflow-hidden bg-dark border-0">
+                  <div class="row">
+                    <div class="col-sm-7 py-3 px-4">
+                      <h2 class="text-white">Sarsha</h2>
+                      <h4 class="text-warning">CLIENT</h4>
+                      <p class="text-white">
+                        A game-changer! Results speak for themselves
+                      </p>
+                      <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <img
+                        src="image/sasha3.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="container p-5">
+      <div class="sub-heading" data-aos="fade-left">RECENT BLOG</div>
+      <div class="main-heading" data-aos="fade-right">Our Latest News</div>
+      <div class="heading-line" data-aos="fade-left"></div>
+      <div class="row gy-2">
+        <div class="col-md-6 col-lg-4" data-aos="fade-right">
+          <div class="card bg-dark text-white">
+            <div class="card-header">
+              <img src="image/hotofit.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="card-body">
+              <h6 class="text-warning">BLOG CATEGORY ONE</h6>
+              <h5>How to fit your body</h5>
+              <p>
+                "Get fit by combining regular exercise, balanced nutrition, and adequate rest. Consistency is key. Make fitness a lifestyle, and see the results unfold.With state-of-the art equipment and tailer fitness plans,achieve your fitness goals."
+              </p>
+            </div>
+            <div>
+              <span>
+                <i class="bi bi-stopwatch"> 13m | Sara</i>
+              </span>
+              <span class="float-end"><i class="bi bi-chat"></i> 52 </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+          <div class="card bg-dark text-white">
+            <div class="card-header">
+              <img src="image/daily1.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="card-body">
+              <h6 class="text-warning">BLOG CATEGORY TWO</h6>
+              <h5>Be working out daily</h5>
+              <p>
+                
+"Daily workouts are the key to a healthier, stronger you. Commit to regular exercise to boost energy, improve mood, and achieve your fitness goals. Consistency is your path to success—make it a daily habit."
+              </p>
+            </div>
+            <div>
+              <span>
+                <i class="bi bi-stopwatch"> 13m | Sara</i>
+              </span>
+              <span class="float-end"><i class="bi bi-chat"></i> 52 </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-left">
+          <div class="card bg-dark text-white">
+            <div class="card-header">
+              <img src="image/maleabs.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="card-body">
+              <h6 class="text-warning">BLOG CATEGORY THREE</h6>
+              <h5>For ABS People</h5>
+              <p>
+                
+"Sculpt Your Core with Us! Unleash the power of abs at our gym. Expert trainers, targeted workouts, and a community of fitness enthusiasts await you. Elevate your strength, define your abs. Join now and carve the path to a stronger, fitter you!"
+              </p>
+            </div>
+            <div>
+              <span>
+                <i class="bi bi-stopwatch"> 13m | Sara</i>
+              </span>
+              <span class="float-end"><i class="bi bi-chat"></i> 52 </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="container p-5">
+      <div class="sub-heading" data-aos="fade-left">
+        FREQUENTLY ASK QUESTION
+      </div>
+      <div class="main-heading" data-aos="fade-right">FAQ</div>
+      <div class="heading-line" data-aos="fade-left"></div>
+
+      <div class="accordion" id="accordionExample" data-aos="zoom-in">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Lorem ipsum dolor sit amet.
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae, quos! Mollitia, facilis delectus. Voluptatum
+                repudiandae qui distinctio, nihil velit magni.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Lorem ipsum dolor sit amet.
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae, quos! Mollitia, facilis delectus. Voluptatum
+                repudiandae qui distinctio, nihil velit magni.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Lorem ipsum dolor sit amet.
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae, quos! Mollitia, facilis delectus. Voluptatum
+                repudiandae qui distinctio, nihil velit magni.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container-fluid">
+      <div class="sub-heading" data-aos="fade-left">CONTACT US</div>
+      <div class="main-heading" data-aos="fade-right">+95 9696628240</div>
+      <div class="heading-line" data-aos="fade-left"></div>
+      <a href="" class="btn btn-danger" data-aos="fade-left">CALL US NOW</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="container-fluid bg-dark text-light p-5">
+      <div class="row g5">
+        <div class="col-md-4">
+          <div class="sub-heading">GYM & FITNESS</div>
+          <div class="heading-line"></div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+            sunt, veniam perspiciatis consequuntur ex cupiditate inventore
+            dolores. Magni harum ab aspernatur quae, ipsam, voluptatibus eos ad
+            magnam veritatis et modi.
+          </p>
+          <div>
+            <a href="#" class="btn btn-outline-danger text-white mx-1"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="#" class="btn btn-outline-danger text-white mx-1"
+              ><i class="bi bi-twitter"></i
+            ></a>
+            <a href="#" class="btn btn-outline-danger text-white mx-1"
+              ><i class="bi bi-youtube"></i
+            ></a>
+            <a href="#" class="btn btn-outline-danger text-white mx-1"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="sub-heading">QUICK CONTENT</div>
+          <div class="heading-line"></div>
+          <ul>
+            <li>
+              <i class="bi bi-geo-alt-fill text-danger"></i> No.10, Hlaing
+              Street, Yangon, Burma
+            </li>
+            <li>
+              <i class="bi bi-telephone-fill text-danger"></i> +95 9699364111
+            </li>
+            <li>
+              <i class="bi bi-envelope-fill text-danger"></i>
+              gymfitness@gmail.com
+            </li>
+            <li>
+              <i class="bi bi-globe text-danger"> </i>
+              <a href="#">www.gymfitness.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <div class="sub-heading">SEND US MESSAGE</div>
+          <div class="heading-line"></div>
+          <form action="">
+            <div class="mb-3">
+              <input
+                type="text"
+                placeholder="Your Email"
+                class="form-control border border-danger"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                rows="5"
+                class="form-control border border-danger"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <button class="btn btn-danger">
+              <i class="bi bi-send-fill"></i> Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Copyright -->
+    <section
+      id="copyright"
+      class="container-fluid bg-dark text-light p-3 text-center"
+    >
+      <p>&copy; Copyright & all rights reserved by Thet Naung Soe</p>
+    </section>
+
+    <!-- Up Arrow -->
+    <a href="#header" class="up-arrow"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Sign In Form -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="loginOffcanvas"
+      aria-labelledby="offcanvasLabel"
+    >
+      <div class="offcanvas-header">
+        <!-- <h5 class="offcanvas-title" id="offcanvasLabel">Title</h5> -->
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="sub-heading text-danger">LOGIN FORM</div>
+        <div class="heading-line"></div>
+
+        <form action="">
+          <div class="mb-3">
+            <label for="mail">Email</label>
+            <input
+              id="mail"
+              type="text"
+              class="form-control border border-danger"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="password">Password</label>
+            <input
+              id="password"
+              type="text"
+              class="form-control border border-danger"
+            />
+          </div>
+          <button class="btn btn-danger float-end">
+            <i class="bi bi-send-fill"></i> SIGN IN
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Sign Up Form -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="registerOffcanvas"
+      aria-labelledby="offcanvasLabel"
+    >
+      <div class="offcanvas-header">
+        <!-- <h5 class="offcanvas-title" id="offcanvasLabel">Title</h5> -->
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="sub-heading text-danger">REGISTRATION FORM</div>
+        <div class="heading-line"></div>
+
+        <form action="">
+          <div class="mb-3">
+            <label for="name">Name</label>
+            <input
+              id="name"
+              type="text"
+              class="form-control border border-danger"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              type="text"
+              class="form-control border border-danger"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="Password">Password</label>
+            <input
+              id="Password"
+              type="text"
+              class="form-control border border-danger"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="c-password">Confirm Password</label>
+            <input
+              id="c-password"
+              type="text"
+              class="form-control border border-danger"
+            />
+          </div>
+          <button class="btn btn-danger float-end">
+            <i class="bi bi-send-fill"></i> SIGN UP
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--  -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
